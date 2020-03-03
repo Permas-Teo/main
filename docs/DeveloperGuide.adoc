@@ -345,17 +345,17 @@ Priorities: High (must have) - `* * \*`, Medium (nice to have) - `* \*`, Low (un
 [appendix]
 == Use Cases
 
-(For all use cases below, the *System* is the `AddressBook` and the *Actor* is the `user`, unless specified otherwise)
+(For all use cases below, the *System* is `BBProductive` and the *Actor* is the `user`, unless specified otherwise)
 
 [discrete]
-=== Use case: Delete person
+=== Use case: Delete task
 
 *MSS*
 
-1.  User requests to list persons
-2.  AddressBook shows a list of persons
+1.  User requests to list tasks
+2.  BBProductive shows a list of tasks
 3.  User requests to delete a specific person in the list
-4.  AddressBook deletes the person
+4.  BBProductive deletes the task
 +
 Use case ends.
 
@@ -369,11 +369,43 @@ Use case ends.
 * 3a. The given index is invalid.
 +
 [none]
-** 3a1. AddressBook shows an error message.
+** 3a1. BBProductive shows an error message.
 +
 Use case resumes at step 2.
 
-_{More to be added}_
+=== Use case: Run task with Pomodoro
+
+*MSS*
+
+1.  User requests to run task with Pomodoro
+2.  User proceeds to do task
+3.  When Pomodoro timer ends, BBProductive prompts the user to continue for the next interval, or exit the Pomodoro with the task done/undone
+4.  User completes the task and request to mark the task as done
+5.  BBProductive marks the task as done
++
+Use case ends.
+
+*Extensions*
+
+[none]
+* 2a. The given index is invalid.
++
+** 2a1. BBProductive shows an error message.
+Use case ends.
+
+* 3a. User has not completed the task.
++
+[none]
+** 3a1. User continues the Pomodoro for the next interval.
++
+Use case resumes at step 3.
+
+* 3b. User has not completed the task but wants to take a break from completing the task.
++
+[none]
+** 3a1. User exits the Pomodoro without marking the task as done.
++
+Use case ends.
 
 [appendix]
 == Non Functional Requirements
@@ -381,6 +413,9 @@ _{More to be added}_
 .  Should work on any <<mainstream-os,mainstream OS>> as long as it has Java `11` or above installed.
 .  Should be able to hold up to 1000 persons without a noticeable sluggishness in performance for typical usage.
 .  A user with above average typing speed for regular English text (i.e. not code, not system admin commands) should be able to accomplish most of the tasks faster using commands than using the mouse.
+.  Graphics should not be offensive to any culture in any way
+.  Product should function with CLI alone
+.  Product should be usable by people with no initial knowledge of Pomodoro
 
 _{More to be added}_
 
@@ -392,6 +427,15 @@ Windows, Linux, Unix, OS-X
 
 [[private-contact-detail]] Private contact detail::
 A contact detail that is not meant to be shared with others
+
+[[pomodoro] Pomodoro::
+A time management method developed by Francesco Cirillo. Traditionally, cycles of 25 minutes of work and 5 minutes of rest.
+
+[[task]] Task::
+A snippet of text specified by the user that can be tracked (done/time spent).
+
+[[pet]] Pet::
+A cute little companion whom the player can care for and accessorise with more tasks being done.
 
 [appendix]
 == Product Survey
