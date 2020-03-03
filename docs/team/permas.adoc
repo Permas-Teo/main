@@ -1,0 +1,8 @@
+= Permas Teo - Project Portfolio
+:site-section: AboutUs
+:imagesDir: ../images
+:stylesDir: ../stylesheets
+
+image::permas-teo.png[width="150", align="left"]
+
+== PROJECT: BB Productive - Level 3

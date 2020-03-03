@@ -4,53 +4,49 @@
 :imagesDir: images
 :stylesDir: stylesheets
 
-AddressBook - Level 3 was developed by the https://se-edu.github.io/docs/Team.html[se-edu] team. +
-_{The dummy content given below serves as a placeholder to be used by future forks of the project.}_ +
+BB Productive was developed by the https://ay1920s2-cs2103t-w16-1.github.io/main/team/hardoh.html[W-16-1] team. +
+_{The project is a task manager which incorporates Pomodor techniques to help our users manage their tasks better. We also have statistics provided and a pet to keep reward you for completing tasks.}_ +
 {empty} +
 We are a team based in the http://www.comp.nus.edu.sg[School of Computing, National University of Singapore].
 
 == Project Team
 
-=== John Doe
-image::damithc.jpg[width="150", align="left"]
-{empty}[http://www.comp.nus.edu.sg/~damithch[homepage]] [https://github.com/damithc[github]] [<<johndoe#, portfolio>>]
+=== Hardy Oh
+image::hardoh.png[width="150", align="left"]
+{empty}[https://github.com/hardoh[github]] [<<hardoh#, portfolio>>]
 
-Role: Project Advisor
-
-'''
-
-=== John Roe
-image::lejolly.jpg[width="150", align="left"]
-{empty}[http://github.com/lejolly[github]] [<<johndoe#, portfolio>>]
-
-Role: Team Lead +
-Responsibilities: UI
+Role: Team Lead
 
 '''
 
-=== Johnny Doe
-image::yijinl.jpg[width="150", align="left"]
-{empty}[http://github.com/yijinl[github]] [<<johndoe#, portfolio>>]
+=== Fyonn Oh
+image::fyonnoh.png[width="150", align="left"]
+{empty}[http://github.com/fyonnoh[github]] [<<hardoh#, portfolio>>]
 
-Role: Developer +
-Responsibilities: Data
-
-'''
-
-=== Johnny Roe
-image::m133225.jpg[width="150", align="left"]
-{empty}[http://github.com/m133225[github]] [<<johndoe#, portfolio>>]
-
-Role: Developer +
-Responsibilities: Dev Ops + Threading
+Role: Documentation, Code Quality
 
 '''
 
-=== Benson Meier
-image::yl_coder.jpg[width="150", align="left"]
-{empty}[http://github.com/yl-coder[github]] [<<johndoe#, portfolio>>]
+=== Permas Teo
+image::permas-teo.png[width="150", align="left"]
+{empty}[http://github.com/permas-teo[github]] [<<hardoh#, portfolio>>]
 
-Role: Developer +
-Responsibilities: UI
+Role: Deliverables, Testing
+
+'''
+
+=== Arthur Lee
+image::artlee06.png[width="150", align="left"]
+{empty}[http://github.com/artlee06[github]] [<<hardoh#, portfolio>>]
+
+Role: Ui/Design, Scheduling and tracking
+
+'''
+
+=== Branson Ng
+image::bransonng.png[width="150", align="left"]
+{empty}[http://github.com/bransonng[github]] [<<hardoh#, portfolio>>]
+
+Role: Git expert, Integration
 
 '''

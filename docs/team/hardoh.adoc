@@ -1,9 +1,11 @@
-= John Doe - Project Portfolio
+= Hardy Shein - Project Portfolio
 :site-section: AboutUs
 :imagesDir: ../images
 :stylesDir: ../stylesheets
 
-== PROJECT: AddressBook - Level 3
+image::hardoh.png[width="150", align="left"]
+
+== PROJECT: BB Productive - Level 3
 
 ---
 
